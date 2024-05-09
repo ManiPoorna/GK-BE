@@ -32,7 +32,7 @@ class tournamentDetails{
   async getTournamentDetails() {
     try {
       let response = await tournamentSchema.find({});
-      console.log(response)
+      // console.log(response)
       return response;
     } catch (error) {
       return error;
