@@ -1,6 +1,6 @@
 const express = require('express');
-const teamCreationRouter= express.Router();
-const teamModel = require("../Models/teamModel.js");
+const teamCreationRouter = express.Router();
+const teamModel = require("../models/teamModel.js")
 const teamSchema = require('../Schemas/teamSchema.js');
 const confirmationSchema = require("../Schemas/confirmationSchema.js")
 
