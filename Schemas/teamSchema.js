@@ -7,7 +7,7 @@ const teamMemberSchema = new Schema({
   id: String
 });
 
-const teamModel = new Schema({
+const  teamMembersSchema= new Schema({
   captain: teamMemberSchema,
   tm2: teamMemberSchema,
   tm3: teamMemberSchema,
@@ -15,6 +15,6 @@ const teamModel = new Schema({
   email : String
 });
 
-const teamSchema = mongoose.model('team', teamModel)
+const teamSchema = mongoose.model('team', teamMembersSchema)
 
 module.exports = teamSchema
