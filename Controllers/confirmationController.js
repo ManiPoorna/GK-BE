@@ -1,6 +1,6 @@
 const express = require('express');
 const confirmationRouter = express.Router();
-const confirmationModel = require("../Models/confirmationModel")
+const confirmationModel = require("../models/confirmationModel")
 
 confirmationRouter.post("/get-confirmation", async (req, res) => {
   let ConfirmationModel = new confirmationModel();

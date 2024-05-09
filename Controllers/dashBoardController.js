@@ -1,6 +1,6 @@
 const express = require('express');
 const dashboardRouter = express.Router();
-const dashboardModel = require('../Models/dashboardModel.js');
+const dashboardModel = require('../models/dashboardModel.js');
 
 dashboardRouter.get('/get-registered-teams', async (req, res) => {
  

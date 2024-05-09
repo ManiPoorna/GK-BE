@@ -1,6 +1,6 @@
 const express = require('express');
 const userRouter = express.Router();
-const userModel = require("../Models/userModel.js");
+const userModel = require("../models/userModel.js");
 const UserModel = new userModel();
 
 userRouter.post("/create-account", async (req, res) => {
